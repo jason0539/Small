@@ -1,30 +1,27 @@
 package net.wequick.example.small.app.main;
 
 import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-
 import android.widget.TextView;
 
 import net.wequick.example.lib.analytics.AnalyticsManager;
-import net.wequick.small.Small;
 import net.wequick.example.small.lib.utils.UIUtils;
+import net.wequick.small.Small;
 
-import java.util.HashMap;
+import static u.aly.au.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
      */
     private ViewPager mViewPager;
 
-    private static String[] sUris = new String[] {"home", "mine", "stub"};
+    private static String[] sUris = new String[] {"home", "mine/other", "stub"};
     private static String[] sTitles = new String[] {"Home", "Mine", "Stub"};
 
     @Override

@@ -23,7 +23,10 @@
     },
     {
       "uri": "mine",
-      "pkg": "net.wequick.example.small.app.mine"
+      "pkg": "net.wequick.example.small.app.mine",
+      "rules": {
+        "other": "OtherFragment"
+      }
     },
     {
       "uri": "detail",
